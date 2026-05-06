@@ -7,13 +7,13 @@ hp_configs
     │
     ▼
 ┌──────────────────────────────────────────────────────┐
-│                    Trio Nursery                       │
-│                                                       │
+│                    Trio Nursery                      │
+│                                                      │
 │  [Trial 0] ──┐                                       │
-│  [Trial 1] ──┤──  TrialReport  ──▶  [Monitor/SHA]   │
+│  [Trial 1] ──┤──  TrialReport  ──▶  [Monitor/SHA]   |
 │  [Trial 2] ──┤   (memory channel)        │           │
-│     ...    ──┘                    cancel_events       │
-│                                   (trio.Event)        │
+│     ...    ──┘                    cancel_events      │
+│                                   (trio.Event)       │
 └──────────────────────────────────────────────────────┘
 ```
 
