@@ -1,0 +1,4 @@
+trio>=0.25.0
+pyyaml>=6.0.1
+pytest>=7.4.0
+pytest-trio>=0.8.0
